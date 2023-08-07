@@ -1,0 +1,505 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Malgun Gothic';
+    text-decoration: none;
+    transition: .4s;
+}
+/* home */
+#navbar{
+    padding-top: 20px;
+    width: 100%;
+}
+#navbar #menu{
+    display: none;
+}
+#logo-colored{
+    display: none;
+}
+#logo-white{
+    display: block;
+}
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    transform: translateY(-40px);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.nav-links li:hover{
+    border-bottom: 2px solid white;
+}
+.nav-links .link{
+    margin-left: 40px;
+}
+
+.nav-links button{
+    margin-left: 50px;
+    background: rgb(13, 128, 235);
+    color: white;
+    transform: translate(20px, -10px);
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+}
+.nav-links button:hover{
+    background-color: white;
+    border: 2px solid rgb(13, 128, 235);
+    color: rgb(13, 128, 235);
+}
+#home{
+    height: 100%;
+    width: 100%;
+    background: url(../images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+    position: relative;
+    z-index: 1;
+}
+#home .home-content{
+    margin-top: 100px;
+    color: white;
+}
+#home .home-content h1{
+    
+    font-family: 'Arial Black';
+}
+#home .home-content button{
+    background: lightblue;
+    color: rgb(0, 145, 255);
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+}
+#home .home-content button:hover{
+    color: white;
+    background: rgb(0, 145, 255);
+    transform: scale(1.05,1.05);
+}
+/* second page */
+#second-page .card{
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 0px 8px #f0efef;
+    background: #fbf9f9;
+}
+#second-page .card h2{
+    font-weight: bold;
+}
+#second-page .card h2:hover,a:hover{
+    transform: scale(1.04,1.04);
+    cursor: pointer;
+}
+#second-page #card-one h2{
+    color: rgb(0, 110, 255);
+}
+#second-page #card-one .line{
+    background: rgb(0, 110, 255);
+    height: 2px;
+    width: 70px;
+}
+#second-page #card-one i{
+    color: rgb(0, 110, 255);
+   
+}
+#second-page #card-one h5{
+    padding: 10px 0;
+    color: rgb(75, 88, 98);
+}
+#second-page #card-one a{
+    color: rgb(0, 110, 255);
+    text-decoration: none;
+}
+
+#second-page #card-two h2{
+    color: rgb(28, 245, 180);
+}
+#second-page #card-two .line{
+    background: rgb(28, 245, 180);
+    height: 2px;
+    width: 70px;
+}
+#second-page #card-two i{
+    color: rgb(28, 245, 180);
+   
+}
+#second-page #card-two h5{
+    padding: 10px 0;
+    color: rgb(75, 88, 98);
+}
+#second-page #card-two a{
+    color: rgb(28, 245, 180);
+    text-decoration: none;
+}
+
+#second-page #card-three h2{
+    color: orangered;
+}
+#second-page #card-three .line{
+    background: orangered;
+    height: 2px;
+    width: 70px;
+}
+#second-page #card-three i{
+    color: orangered;
+   
+}
+#second-page #card-three h5{
+    padding: 10px 0;
+    color: rgb(75, 88, 98);
+}
+#second-page #card-three a{
+    color: orangered;
+    text-decoration: none;
+}
+/* third-page */
+
+#third-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#third-page h1{
+    font-weight: bold;
+}
+#third-page .col-md-6{
+    margin-bottom: 20px;
+}
+#third-page button{
+    background: rgb(0, 145, 255);
+    color: white;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+#third-page{
+    color: rgb(75, 88, 98);
+}
+#third-page button:hover{
+    color: rgb(13, 128, 235);
+    border: 2px solid rgb(13, 128, 235);
+    background: white;
+}
+#third-page .line{
+    height: 3px;
+    width: 100px;
+    background: orangered;
+}
+#third-page .card{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    color: rgb(0, 110, 255);
+    background: rgb(253, 251, 251);
+    box-shadow: 0px 0px 8px rgb(228, 228, 228);
+    border: none;
+    cursor: pointer;
+}
+#third-page .card:hover{
+    color: rgb(0, 78, 179);
+    transform: scale(1.04,1.04);
+}
+#third-page .card img{
+    margin: 0 auto;
+}
+/* fourth page */
+
+#fourth-page #four-one{
+    background: url(../images/backg.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#fourth-page #four-two{
+    color: rgb(75, 88, 98);
+}
+
+#title{
+    font-weight: bold;
+    color: rgb(75, 88, 98);
+}
+.line{
+    height: 3px;
+    background: orangered;
+    width: 100px;
+}
+#fourth-page #four-two .col-md-6{
+    margin-top: 20px;
+}
+#fourth-page #four-two .card{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    background: rgb(253, 251, 251);
+    box-shadow: 0px 0px 8px rgb(228, 228, 228);
+    border: none;
+    cursor: pointer;
+}
+
+#fourth-page #four-two .card h2{
+    color: rgba(9, 75, 161, 0.863);
+    font-weight: bold;
+}
+
+/* about */
+#about{
+    margin-bottom: 50px;
+}
+#about button{
+    background: rgb(13, 128, 235);
+    color: white;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+#about button:hover{
+    color: rgb(13, 128, 235);
+    border: 2px solid rgb(13, 128, 235);
+    background: white;
+}
+#about{
+    color: rgb(75, 88, 98);
+}
+#about #pag-two .card{
+    border: none;
+    height: 110%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/backg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#about #pag-two .card img{
+    border-radius: 20px;
+    box-shadow: 3px 0px 9px #3c3c3c;
+}
+
+/* sayings */
+
+#what-they-say{
+    color: rgb(75, 88, 98);
+    height: 100%;
+    width: 100%;
+    background: url(../images/map.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sayings h4{
+    font-weight: bold;
+}
+#line2{
+    height: 3px;
+    width: 70px;
+    background: aqua;
+    margin: 0 auto;
+}
+#say-one{
+    animation: sayone 20s linear infinite;
+}
+@keyframes sayone {
+    0%{
+        display: block;
+    }
+    15%{
+        display: none;
+    }
+    30%{
+        display: none;
+    }
+    45%{
+        display: none;
+    }
+    60%{
+        display: none;
+    }
+    75%{
+        display: none;
+    }
+    90%{
+        display: none;
+    }
+    100%{
+        display: none;
+    }
+}
+#say-two{
+    
+    animation: saytwo 20s linear infinite;
+}
+@keyframes saytwo {
+    0%{
+        display: none;
+    }
+    15%{
+        display: none;
+    }
+    30%{
+        display: block;
+    }
+    45%{
+        display: none;
+    }
+    60%{
+        display: none;
+    }
+    75%{
+        display: none;
+    }
+    90%{
+        display: none;
+    }
+    100%{
+        display: none;
+    }
+}
+#say-three{
+    
+    animation: saythree 20s linear infinite;
+}
+@keyframes saythree {
+    0%{
+        display: none;
+    }
+    15%{
+        display: none;
+    }
+    30%{
+        display: none;
+    }
+    45%{
+        display: none;
+    }
+    60%{
+        display: block;
+    }
+    75%{
+        display: block;
+    }
+    90%{
+        display: none;
+    }
+    100%{
+        display: none;
+    }
+}
+#say-four{
+    
+    animation: sayfour 20s linear infinite;
+}
+@keyframes sayfour {
+    0%{
+        display: none;
+    }
+    15%{
+        display: none;
+    }
+    30%{
+        display: none;
+    }
+    45%{
+        display: none;
+    }
+    60%{
+        display: none;
+    }
+    75%{
+        display: none;
+    }
+    90%{
+        display: none;
+    }
+    100%{
+        display: block;
+    }
+}
+
+/* posts */
+
+#posts .card{
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px #cdcccc;
+    background: #f6f6f6;
+    width: 100%;
+    cursor: pointer;
+}
+#posts .card:hover{
+    transform: scale(1.03,1.03);
+}
+#posts .card img{
+    transform: translateY(-50px);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #cdcccc;
+}
+.card #date, #kev{
+    color: #898989;
+}
+
+#help-page .row h1{
+    color: rgb(51, 154, 250);
+    font-weight: bold;
+}
+#help-page .row{
+    background: white;
+    padding: 50px;
+    color: rgb(75, 88, 98);
+    border-radius: 30px;
+    box-shadow: 4px 0px 9px rgba(63, 171, 254, 0.408);
+}
+
+#help-page .row button{
+    background: rgb(51, 154, 250);
+    color: white;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+#help-page .row button:hover{
+    color: rgb(51, 154, 250);
+    border: 2px solid rgb(13, 128, 235);
+    background: white;
+}
+/* footer */
+#footer{
+    background: linear-gradient(45deg, rgb(51, 154, 250),rgb(135, 195, 250));
+    color: white;
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+#footer a:hover{
+    color: #3c3c3c;
+}
+#footer .socials{
+    font-size: 30px;
+    margin: 20px;
+}
+#footer .sub-links a{
+    margin: 10px;
+    border-right: 2px solid white;
+    padding: 0px 10px;
+    
+}

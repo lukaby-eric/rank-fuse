@@ -1,0 +1,67 @@
+
+@media only screen and (max-width: 1200px){
+    #logo-colored{
+        display: block;
+        width: 200px;
+        border-radius: 20px;
+    }
+    #navbar #menu{
+        display: block;
+        float: right;
+        transform: translateY(-60px);
+        outline: none;
+        cursor: pointer;
+        color: rgb(0, 217, 255);
+        border: none;
+        background: none;
+        margin-right: 20px;
+        font-size: 35px;
+    }
+    .nav-links .link{
+        display: none;
+    }
+    #logo-white{
+        display: none;
+    }
+    .nav-links{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        transform: translateY(-40px);
+        color: white;
+    }
+    .nav-links button{
+        display: none;
+    }
+    #navbar{
+        background: white;
+        border-radius: 20px;
+    }
+  
+}
+@media only screen and (max-width: 600px){
+    #logo-colored{
+        display: block;
+        width: 150px;
+        border-radius: 20px;
+    }
+    
+}
+@media only screen and (max-width: 350px){
+    #home h4{
+        font-size: 20px;
+    }
+    #footer img{
+        width: 150px;
+    }
+    #footer a{
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    #footer .sub-links a{
+        margin: 5px;
+        border-right: 2px solid white;
+        padding: 0px 5px;
+    }
+}
