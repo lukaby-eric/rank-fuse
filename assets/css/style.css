@@ -503,3 +503,20 @@
     padding: 0px 10px;
     
 }
+#setting{
+    border: none;
+    color: white;
+    background: rgb(0, 128, 70);
+    font-size: 30px;
+    padding: 8px 10px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 111;
+    left: 30px;
+    bottom: 30px;
+}
+#setting:hover{
+    transform: scale(1.04,1.04);
+}
